@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<title>Criptografia de Texto</title>
+		
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+
+	</head>
+
+	<body>
+		<header>
+            <img class="logo" src="/imagens/logo.png" alt="logotipo">
+			
+		</header>
+		
+		<main>
+            
+            <section>
+				
+				<textarea class="area-texto" cols="41" rows="4" placeholder="Digite seu texto:"></textarea>
+
+				<div class="info">
+					<h6>&#128712; Apenas letras minúsculas e sem acento.</h6>
+				</div>
+				<div class="button"> 
+					<button onclick="btnEncriptar()" class="btn-encriptar">Criptografar</button>
+					<button onclick="btnDesencriptar()" class="btn-desencriptar">Descriptografar</button>
+				</div>
+
+					
+			</section>
+
+			<section>
+
+				<textarea class="mensagem" cols="20" rows="10"></textarea>
+				</div><button class="btn-copiar" onclick="copiar()">Copiar</button>	
+
+
+			</section>
+		</main>
+
+		<footer>
+            <p class="footer">&copy; Todos os direitos reservados Alura Oracle Next Education</p>
+		</footer>
+
+		<script src="script.js"></script>
+	</body>
+</html>
